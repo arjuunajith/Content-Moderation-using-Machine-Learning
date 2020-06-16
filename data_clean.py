@@ -8,14 +8,6 @@ import random
 import pickle
 import os
 
-
-# with open('employee_file.csv', mode='r') as csv_file:
-#     csv_reader = csv.reader(csv_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-
-# files_pos = os.listdir('aclImdb/train/pos')
-# files_pos = [open('aclImdb/train/pos/'+f, 'r',errors='ignore').read() for f in files_pos]
-
-
 stop_words = list(set(stopwords.words('english')))
 
 nc=0
